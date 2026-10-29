@@ -2,7 +2,8 @@
     "apiName": "AI Innovation POC OAuth API",
     "artifact_version": "1.0.105",
     "authType": "OAUTH2_CLIENT_CREDENTIALS",
-    "auth": {
+    "authParameters": {
+        "grantType": "client_credentials",
         "tokenUrl": "{{OAUTH_TOKEN_URL}}",
         "clientId": "{{OAUTH_CLIENT_ID}}",
         "clientSecret": "{{OAUTH_CLIENT_SECRET}}",

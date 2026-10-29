@@ -2,7 +2,7 @@
     "apiName": "AI Innovation POC1 API",
     "artifact_version": "1.0.105",
     "authType": "CLIENT_ID_ENFORCEMENT",
-    "auth": {
+    "authParameters": {
         "clientId": "{{CLIENT_ID}}",
         "clientSecret": "{{CLIENT_SECRET}}"
     },
